@@ -1,5 +1,3 @@
-function concatenateArrays(array1, array2, str) {
-  return [...array1, ...array2, ...str];
+export default function returnHowManyArguments(...args) {
+  return args.length;
 }
-
-export default concatenateArrays;
