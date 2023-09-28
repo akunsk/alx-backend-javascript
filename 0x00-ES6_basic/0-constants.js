@@ -1,15 +1,15 @@
-export function getFirstTask() {
-  const task = 'I favor using const when possible.';
+export function taskFirst() {
+  const task = 'I prefer const when I can.';
   return task;
 }
 
-export function getLastPart() {
-  return ' is acceptable';
+export function getLast() {
+  return ' is okay';
 }
 
-export function getNextTask() {
-  let combinedTask = 'However, occasionally I use let';
-  combinedTask += getLastPart();
+export function taskNext() {
+  let combination = 'But sometimes let';
+  combination += getLast();
 
-  return combinedTask;
+  return combination;
 }
